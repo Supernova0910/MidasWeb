@@ -1,0 +1,56 @@
+/* reset */
+* { margin: 0;padding: 0; }
+body { font:13px/1.5  "맑은 고딕", "Gulim", "Arial"; color:black; line-height:25px background-color:#efefef;}
+
+ul,li {list-style: none;}
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: black;
+}
+img {border: 0;}
+
+
+
+.top{
+  display: block;
+  font-size: 21px;
+  border-bottom:2px solid rgb(0, 194, 255);
+
+}
+.top>img{
+  position: relative;
+  z-index: 1;
+}
+.top>ul{
+  position: absolute;
+  left: 250px;
+  top: 60px;
+}
+.top>ul>li{
+  float: left;
+  font-weight: bold;
+  margin-left: 100px;
+  z-index: 10;
+}
+
+
+.exp{
+  text-align: center;
+}
+
+
+.bottom{
+  position: relative;
+  color: white;
+  background-color: rgba(23, 29, 42, 0.83);
+  vertical-align: bottom;
+}
+
+.bottom>iframe{
+  float: right;
+  margin-right: 13px;
+}
+
+.link{
+  color: white;
+}
