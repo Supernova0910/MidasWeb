@@ -56,8 +56,12 @@ img {border: 0;}
   margin-left: 2.5%;
   float: left;
   font-size: 14px;
-  font-weight: bold;
 }
+
+#bold{
+  font-weight: bold;
+} 
+
 #bl{
     border:1px solid black;
 }
