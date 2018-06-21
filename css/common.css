@@ -9,7 +9,13 @@ a, a:hover, a:active, a:visited{
 }
 img {border: 0;}
 
+h1{
+  text-align: center;
+}
 
+.bold{
+  font-weight: bold;
+}
 
 .top{
   display: block;
@@ -23,7 +29,7 @@ img {border: 0;}
 }
 .top>ul{
   position: absolute;
-  left: 350px;
+  left: 300px;
   top: 60px;
 }
 .top>ul>li{
@@ -48,7 +54,8 @@ img {border: 0;}
 
 .know{
   position: relative;
-  width: 100%;
+  display: inline-block;
+
 }
 
 .know>ul>li{
@@ -57,16 +64,16 @@ img {border: 0;}
   float: left;
   font-size: 14px;
 }
-
-#bold{
-  font-weight: bold;
-} 
-
 #bl{
     border:1px solid black;
 }
 
-.know>ol>li{
+.space35{
+  height: 35px;
+  display: block;
+}
+
+.clear{
   clear: both;
 }
 
@@ -75,6 +82,8 @@ img {border: 0;}
   color: white;
   background-color: rgba(35, 36, 40, 0.87);
   vertical-align: bottom;
+
+
 }
 
 .bottom>p{
@@ -90,4 +99,62 @@ img {border: 0;}
   color: white;
 }
 
+/* ----------------------------------- 동아리소개 */
 
+.midas{
+  font-size: 16px;
+  margin-left: 6.6%;
+  margin-right: 6.6%;
+}
+
+.midas>img{
+  float: left;
+  margin-right: 15px;
+}
+
+
+
+.video2>video{
+  width: 40%;
+  margin-left: 6.6%
+}
+/* ------------------------------------ 무상실소개 */
+
+.sokae{
+  font-size: 16px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.sokae>img{
+  float: left;
+  width: 10%;
+}
+
+.equip>a{
+  font-size: 16px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.equip>ul>li{
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.equip>ol>li{
+  margin-left: 2.5%;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.equip>ol>#a{
+  width: 45%;
+}
+
+.equip>ol>#b{
+  width: 22.5%;
+}
